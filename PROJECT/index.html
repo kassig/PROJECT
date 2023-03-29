@@ -52,27 +52,7 @@
 
   </section>
      <div class="container">
-        <!-- <form action="action_page.php">
-      
-          <label for="fname">First Name</label>
-          <input type="text" id="fname" name="firstname" placeholder="Your name..">
-      
-          <label for="lname">Last Name</label>
-          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-      
-          <label for="country">Country</label>
-          <select id="country" name="country">
-            <option value="australia">Australia</option>
-            <option value="canada">Canada</option>
-            <option value="usa">USA</option>
-          </select>
-      
-          <label for="subject">Subject</label>
-          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-      
-          <input type="submit" value="Submit">
-      
-        </form> -->
+       
       </div>
   
     <section class="hero-container" id="hero">
@@ -97,7 +77,7 @@
 
             <h2>About Me</h2>
 
-            <p>Blerb about traveling here! </p>
+            <p>Traveling has become my new obsession! I started traveling post-covid. I am now determined to see as much of the world as possible in my lifetime and experience as many new cultures in the future as I can. </p>
 
         </div>
 
@@ -113,7 +93,9 @@
 
                 <p>Caribbean island known for mountains and beaches (white, gray, and black sands). Visited November 2022. </p>
 
-                <p><a href="#" class="btn">Let's see it! &raquo;</a></p>
+                <p><a href="#" 
+                    onclick="window.location.href='https://flic.kr/s/aHBqjAxNmh';"
+                    class="btn">Let's see it! &raquo;</a></p>
 
             </article>
 
@@ -123,7 +105,9 @@
 
                 <p>"Sister" island of Nevis in the Caribbean. Known for volcanic hot springs, beaches, tropical weather, and being the birthplace of Alexander Hamilton. Visited November 2022. </p>
 
-                <p><a href="#" class="btn">Let's see it! &raquo;</a></p>
+                <p><a href="#" 
+                    onclick="window.location.href='https://www.flickr.com/gp/198016067@N06/01Y96Xioj8';"
+                    class="btn">Let's see it! &raquo;</a></p>
 
             </article>
 
@@ -133,12 +117,53 @@
 
                 <p> The only US state outside North America. Known for beautiful beaches, volcanoes, luau traditions, and Polynesian culture. Visited February 2023. </p>
 
-                <p><a href="#" class="btn">Let's see it! &raquo;</a></p>
+                <p><a href="#" 
+                    onclick="window.location.href='https://flic.kr/s/aHBqjAxGHF';"
+                    class="btn">Let's see it! &raquo;</a></p>
 
             </article>
 
         </main>
-    
+    </section>
+    <section class="contact-container" id="contact">
+        <div class="contact-content">
+            <style>
+            form {
+                display: none;
+              }
+              .contact-content:hover>form {
+                display: block;
+              }
+            </style>
+          </head>
+          <body>
+            <div class="contact-content">
+              <div>Hover to show the contact form! </div>
+
+ <form action="action_page.php">
+      
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+          </select>
+      
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+      
+        </form> 
+    </div>
+</section>
+
     </section>
 
     <section class="footer-container">
