@@ -5,4 +5,4 @@ The purpose of the website will be to give me a space to keep travel memories/ph
 
 •	Feature 1: Create a responsive menu with CSS. 
 •	Feature 2: Add your own transition animation(s) to an element on hover - The buttons change color when you hover over them. 
-•	Feature 3:  
+•	Feature 3: Create a simple hide/show div with CSS - Contact Form hide/show with hover
